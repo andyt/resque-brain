@@ -1,0 +1,19 @@
+services:
+- async-payment-redis-1
+- configsync-resque-redis-1
+- crexport-redis-1
+- data-store-metrics-resque-redis-1
+- email-redis-1
+- insight-redis-1
+- mock-redis-1
+- offline-redis-1
+- presentation-redis-1
+- service-redis-1
+- view-redis-1
+instances: 1
+memory: 512M
+environment:
+  HTTP_AUTH_USERNAME: admin
+  HTTP_AUTH_PASSWORD: braintime
+applications:
+- name: resque-brain

@@ -80,6 +80,7 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    cf-app-utils (0.6)
     childprocess (0.5.9)
       ffi (~> 1.0, >= 1.0.11)
     cliver (0.3.2)
@@ -242,6 +243,7 @@ DEPENDENCIES
   aws-sdk
   bower-rails
   capybara
+  cf-app-utils
   coffee-rails
   cron2english
   dotenv-rails
@@ -259,6 +261,7 @@ DEPENDENCIES
   rails_12factor
   rails_serve_static_assets
   rails_stdout_logging
+  rake (~> 12.0)
   resque!
   resque-retry
   resque-scheduler
@@ -270,4 +273,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.14.3
+   1.14.6

@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'rake', '~> 12.0'
 gem 'rails', '~> 4.2'
 gem 'sass-rails'
 gem 'uglifier'
@@ -19,6 +20,7 @@ gem 'resqutils'
 gem 'resque-retry'
 gem 'resque-scheduler'
 gem 'aws-sdk'
+gem 'cf-app-utils'
 
 group :test, :development do
   gem "capybara"
