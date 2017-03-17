@@ -12,8 +12,8 @@ services:
 - view-redis-1
 instances: 1
 memory: 512M
-environment:
-  HTTP_AUTH_USERNAME: admin
-  HTTP_AUTH_PASSWORD: braintime
 applications:
 - name: resque-brain
+  env:
+    HTTP_AUTH_USERNAME: admin
+    HTTP_AUTH_PASSWORD: braintime
